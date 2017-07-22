@@ -1,1 +1,24 @@
 
+begin
+  class ordsimple
+    int x
+    int u 
+    int t
+    u=x
+    for 0...x
+     u=t
+     int f(u,t)
+     
+  end
+ class Picard
+  def phi
+      int x
+      int v
+      for 0 to x
+       
+      end
+ end
+ class Discretization
+ 
+ end
+end
