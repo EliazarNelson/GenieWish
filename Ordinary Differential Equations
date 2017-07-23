@@ -1,9 +1,21 @@
 
 begin
-var x
-var y
-var n
-def_discrete 
+ def x
+ def y
+ def n
+ def a
+ def h
+ def i
+ def t
+ def_differential
+   d(u)/d(t)*(t) = u(t + delta(t))-u(t)/delta(t) 
+ end
+ def derive
+  f(a+h)+h/h
+ end
+ def delta
+  (t_i+t)-t
+ end
   class ordexplicit
    def_derive
     
@@ -32,9 +44,7 @@ def_discrete
   end
  end
  class Discretization
-  def_differential
-   d(u)/d(t)*(t) = u(t + delta(t))-u(t)/delta(t) 
-  end
+  
  def_discrete
   u_n = u_n-1 + delta(t)f(u_n-1,t_n-1)
  end
