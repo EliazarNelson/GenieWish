@@ -1,1 +1,13 @@
 
+begin
+ var t
+ var s
+ var X
+ var i
+ t > 0
+ X_t > X_0
+ X_t+s - X_s
+ def X_r
+  r s or s-i
+ end
+end
