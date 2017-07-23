@@ -5,7 +5,7 @@ begin
     int u 
     int t
     u=x
-    for 0...x
+    for 0...x do
      u=t
      int f(u,t)
      
@@ -14,7 +14,8 @@ begin
   def phi
       int x
       int v
-      for 0 to x
+      int i
+      for i in....x do
        int t
        v=t
        t
@@ -22,8 +23,18 @@ begin
       end
  end
  class Discretization
- int u
- int n
- 
+  int u
+  int n
+  int i
+  int t
+  int f
+  def delta
+   t 
+   int t2
+   t2=t
+   t2-t
+  end
+   for i in n....1 do
+    u + delta*f(u,t)
  end
 end
