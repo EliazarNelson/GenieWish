@@ -1,40 +1,41 @@
 
 begin
-  class ordsimple
-    int x
-    int u 
-    int t
-    u=x
-    for 0...x do
-     u=t
-     int f(u,t)
-     
+var x
+var y
+var n
+def_discrete 
+  class ordexplicit
+   def_derive
+    
+   end
+    def_F
+     (x,y,y^derive..y^n-1)
+    end  
   end
- class Picard
-  def phi
-      int x
-      int v
-      int i
-      for i in....x do
-       int t
-       v=t
-       t
-       t=v
-      end
+ class
+  def_F
+   (x,y,y^derive,y^derive2..y^n) = 0
+  end
+ end
+ class Linear
+  y^(n) = for 0..n-1 do
+   a_i * (x)y^i + r(x)
+  end 
+  
+ end
+ class Nonlinear
+  def_F1
+   f(x+y) != f(x) + f(y)
+  end
+  def_F2
+   f(alpha*a) != alpha*f(x)
+  end
  end
  class Discretization
-  int u
-  int n
-  int i
-  int t
-  int f
-  def delta
-   t 
-   int t2
-   t2=t
-   t2-t
+  def_differential
+   d(u)/d(t)*(t) = u(t + delta(t))-u(t)/delta(t) 
   end
-   for i in n....1 do
-    u + delta*f(u,t)
+ def_discrete
+  u_n = u_n-1 + delta(t)f(u_n-1,t_n-1)
  end
 end
