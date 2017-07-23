@@ -1,14 +1,23 @@
-
-class first part
+begin
  var f
  var h
  var i
  var N
- h != 0
- for i in 0...N do
-  ((x+h)-x)/h)
+ var x
+ def
+  alpha=[i,j,k]
+  
  end
-end
-class multipart
- 
+ class firstpart
+
+  h != 0
+  for i in 0...N do
+   ((x_i + h) - x_i)/h
+  end
+ end
+ class multipart
+ h != 0
+ for alpha in 0...N do
+  ((x_alpha + h) - x_i)/h^2
+ end
 end
