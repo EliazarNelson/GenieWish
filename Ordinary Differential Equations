@@ -15,10 +15,15 @@ begin
       int x
       int v
       for 0 to x
-       
+       int t
+       v=t
+       t
+       t=v
       end
  end
  class Discretization
+ int u
+ int n
  
  end
 end
