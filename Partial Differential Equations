@@ -1,1 +1,14 @@
 
+class first part
+ var f
+ var h
+ var i
+ var N
+ h != 0
+ for i in 0...N do
+  ((x+h)-x)/h)
+ end
+end
+class multipart
+ 
+end
