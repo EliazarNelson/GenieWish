@@ -1,23 +1,43 @@
 begin
- var f
- var h
- var i
- var N
- var x
- def
-  alpha=[i,j,k]
-  
+ def f
+ def h
+ def i
+ def N
+ def x
+ def j
+ def k
+ def y
+ def z
+ def alpha
+  [x,y,z]
+ end 
+ def partial
+  u(x_1..x_n)
  end
- class firstpart
-
-  h != 0
-  for i in 0...N do
-   ((x_i + h) - x_i)/h
-  end
+ class simplepde
+  partial(u)/partial(x) (x,y) = 0
  end
  class multipart
- h != 0
- for alpha in 0...N do
-  ((x_alpha + h) - x_i)/h^2
+  def part2
+   partial^2(u)/partial(x^2)
+  end 
+  def
+   partial^2(u)/partial(x)*partial(y)
+  end
+  def part3
+   partial^3(u)/partial(alpha) 
+  end
+ 
  end
+ class separate
+ def part3div
+   part3 =
+   partial(u)/partialx * partial(u)/partial(y) * partial(u)/partial(z)
+  end
+  part2div
+   part2 =
+   partial(u)/partial(x) * partial(u)/partial(y)
+  end
+ end
+ 
 end
