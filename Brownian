@@ -1,1 +1,17 @@
-
+begin
+ var t
+ t = 0..1
+ var B
+ var m
+ def sigma
+ end
+ B_1/2 = (B_1)/2 +(Z_1/2)/2
+ var k = 0,++k
+ var n = 0,++n
+ def dyadic
+  k/2^n 
+ end
+ def B_q 
+  B_k2^-n + B_(k+1)2^-n - B_k2^-n/2 + (Z_q)/2^((2+n)/2)
+ end
+end
