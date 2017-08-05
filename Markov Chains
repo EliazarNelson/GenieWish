@@ -1,8 +1,34 @@
 begin
- def Pr
-  X_n
-  i_n
-  for 0..n do
-  X_n=i_n
+  j
+  i
+  r
+  S
+  S.Omega
+   s_1..s_r
+  end
+  S.Family
+   S_1..S_r
+  end
+  S.Prob
+   p_ij
+   p^2
+  end
+  for 1..r
+   p_ij*p_ij
+  end
+  class P
+  [A,B,C
+   D,E,F
+   G,H,I]
+  end
+  class absorb
+   S
+   if S = s_r
+   then pause
+  end
+ class ergodic
+  class regular
+  end
  end
+ 
 end
