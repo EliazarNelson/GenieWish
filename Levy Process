@@ -1,13 +1,11 @@
-
 begin
- var t
- var s
- var X
- var i
- t > 0
- X_t > X_0
- X_t+s - X_s
- def X_r
-  r s or s-i
+ t
+ s
+ r
+ class Levy
+  s != 0
+  t != 0
+  X_s+X_t-X_s i
+  Y_[1,n]..Y_[n,n]
  end
 end
