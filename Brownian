@@ -1,17 +1,50 @@
 begin
- var t
- t = 0..1
- var B
- var m
- def sigma
+ def K
+ def k
+ def n
+ def Z
+ class space
  end
- B_1/2 = (B_1)/2 +(Z_1/2)/2
- var k = 0,++k
- var n = 0,++n
- def dyadic
-  k/2^n 
+ Space.Omega
+  x_1..x_n
  end
- def B_q 
-  B_k2^-n + B_(k+1)2^-n - B_k2^-n/2 + (Z_q)/2^((2+n)/2)
+ Space.Family
+  X_1..X_N
+ end
+ Space.P
+ class dyadic
+  def D
+   k = 0..2^n
+   k/2^n 
+  end
+  if k = 0 v 1
+   Z = 0,1
+  end
+ end
+ class rwalk
+  def time
+   t_1..t_n
+  end
+  def rando
+   def B = Z
+   def q
+    D_(n+1)/D_n
+    (2k+1)/2^n+1
+   end
+    B_q = B_k2^-n + 
+    (B_(k+1)2^-n - B_k2^-n)/2 + 
+    (Z_q)/2^(n+2)/2
+   def K_n = abs(B_s - B_t) if 
+   s and t in D
+   abs(s-t) > v = 2^-n
+   def B_t
+  end
+  def
+  def station
+  end
+  def indie
+  end
+  def cont
+  end
  end
 end
