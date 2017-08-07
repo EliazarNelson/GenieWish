@@ -1,11 +1,11 @@
 begin
- t
- s
- r
- class Levy
-  s != 0
-  t != 0
-  X_s+X_t-X_s i
-  Y_[1,n]..Y_[n,n]
+ def T_n
+  T_1..T_n
  end
+ for T_n..T_n+1 
+  X_t = n
+  X_t = X_t+ = X_s while s...t
+ end
+ X_t- = X_s while s...t
+ 
 end
