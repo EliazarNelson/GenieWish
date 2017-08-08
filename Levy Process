@@ -1,4 +1,7 @@
 begin
+ def lambda
+  
+ end
  def T_n
   T_1..T_n
  end
@@ -6,10 +9,16 @@ begin
   X_t = n
   X_t = X_t+ = X_s while s...t
  end
- X_t- = X_s while s...t
- if T_n = t for n >0
- then X_t = X_t- + 1
+  X_t- = X_s while s...t
+  if T_n = t for n >0
+  then X_t = X_t- + 1
  end
  else X_t+ = X_t-
- 
+ class compound
+  T_n
+  N_t = n if
+   t = T_1 or t > T_1 and t < T_n..T_n+1
+   S_N = Y_1..Y_N S_0=0
+  X_t = S_N_t
+ end
 end
