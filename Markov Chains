@@ -26,9 +26,14 @@ begin
    if S = s_r
    then pause
   end
- class ergodic
-  class regular
-  end
+ def ergodic
+  P
+  check A = B = C = D = E = F = G = H = I
+  if true
+  discard P
+  else cont
+ def regular
+  
  end
  
 end
