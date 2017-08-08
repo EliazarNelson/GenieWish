@@ -1,6 +1,12 @@
 begin
+ def t
+ def deltat
+  t
+  def t2
+  t2 - t
+ end
  def lambda
-  
+  deltat - t
  end
  def T_n
   T_1..T_n
