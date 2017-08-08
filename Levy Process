@@ -7,5 +7,9 @@ begin
   X_t = X_t+ = X_s while s...t
  end
  X_t- = X_s while s...t
+ if T_n = t for n >0
+ then X_t = X_t- + 1
+ end
+ else X_t+ = X_t-
  
 end
