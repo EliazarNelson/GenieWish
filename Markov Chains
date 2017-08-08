@@ -28,12 +28,18 @@ begin
   end
  def ergodic
   P
-  check A = B = C = D = E = F = G = H = I
+  check A = B
+  check A = C
+  check A = D
+  check A = E
+  check A = F
+  check A = G
+  check A = I
+  check A = H
+  
   if true
   discard P
   else cont
- def regular
-  
- end
+ 
  
 end
