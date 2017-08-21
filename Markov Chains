@@ -1,45 +1,35 @@
 begin
-  j
-  i
-  r
-  S
-  S.Omega
-   s_1..s_r
+ def t
+ def capt
+ def capx
+ def caps
+ def capn
+ def deltat
+  t
+  def ta
+  t2 - t
+ end
+ def lambda
+  deltat - t
+ end
+ def T
+  capt_1..capt_n
+ end
+ class Levy
+  for capt_n..capt_n+1 
+   capx_t = n
+   capx_t = capx_t+ = capx_s while s...t
   end
-  S.Family
-   S_1..S_r
-  end
-  S.Prob
-   p_ij
-   p^2
-  end
-  for 1..r
-   p_ij*p_ij
-  end
-  class P
-  [A,B,C
-   D,E,F
-   G,H,I]
-  end
-  class absorb
-   S
-   if S = s_r
-   then pause
-  end
- def ergodic
-  P
-  check A = B
-  check A = C
-  check A = D
-  check A = E
-  check A = F
-  check A = G
-  check A = I
-  check A = H
-  
-  if true
-  discard P
-  else cont
- 
- 
+  capx_t- = capx_s while s...t
+  if capt_n = t for n >0
+  then capx_t = capx_t- + 1
+ end
+ else events_t+ = events_t-
+ class Compound
+  capt_n
+  capn_t = n if
+   t = capt_1 or t > capt_1 and t < capt_n..capt_n+1
+   caps_capn = capy_1..capy_capn caps_0=0
+  events_t = caps_capn_t
+ end
 end
