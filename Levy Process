@@ -1,30 +1,35 @@
 begin
  def t
+ def capt
+ def capx
+ def caps
+ def capn
  def deltat
   t
-  def t2
+  def ta
   t2 - t
  end
  def lambda
   deltat - t
  end
- def T_n
-  T_1..T_n
+ def T
+  capt_1..capt_n
  end
- for T_n..T_n+1 
-  X_t = n
-  X_t = X_t+ = X_s while s...t
+ class Levy
+  for capt_n..capt_n+1 
+   capx_t = n
+   capx_t = capx_t+ = capx_s while s...t
+  end
+  capx_t- = capx_s while s...t
+  if capt_n = t for n >0
+  then capx_t = capx_t- + 1
  end
-  X_t- = X_s while s...t
-  if T_n = t for n >0
-  then X_t = X_t- + 1
- end
- else X_t+ = X_t-
- class compound
-  T_n
-  N_t = n if
-   t = T_1 or t > T_1 and t < T_n..T_n+1
-   S_N = Y_1..Y_N S_0=0
-  X_t = S_N_t
+ else events_t+ = events_t-
+ class Compound
+  capt_n
+  capn_t = n if
+   t = capt_1 or t > capt_1 and t < capt_n..capt_n+1
+   caps_capn = capy_1..capy_capn caps_0=0
+  events_t = caps_capn_t
  end
 end
